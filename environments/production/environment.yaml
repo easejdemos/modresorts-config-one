@@ -2,12 +2,14 @@ version: 1.0
 app:
   instances:
     min: 1
-    max: 1
-  version: 
+    max: 2
+  # configure endpoints
+  endpoints: public
+  version: f5fb8675-9f6d-4afe-b05e-0e29c43db418
   env:
     - name: JVM_ARGS
       value: "-DenvironmentType=prod"
-    - name: test_Value
+    - name: io_openliberty_sample_system_inMaintenance
+      value: "false"
+    - name: testValue
       value: "testData"
-    - name: MAX
-      value: "5"
