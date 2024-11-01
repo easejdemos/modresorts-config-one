@@ -5,7 +5,7 @@ app:
     max: 2
   # configure endpoints
   endpoints: public
-  version: f5fb8675-9f6d-4afe-b05e-0e29c43db418
+  version: 39cef1fa-b820-486f-9897-2631c4d3b7bb
   env:
     - name: JVM_ARGS
       value: "-DenvironmentType=stage"
